@@ -15,7 +15,7 @@ var VerilogHighlightRules = function () {
         "endgenerate|endmodule|endprimitive|endspecify|endtable|endtask|for|forever|function|generate|if|ifnone|" +
         "macromodule|module|primitive|repeat|specify|table|task|while";
     var builtinConstants = ("true|false|null");
-    var builtinFunctions = ("count|min|max|avg|sum|rank|now|coalesce|main");
+    var builtinFunctions = ("count|avg|sum|rank|now|coalesce|main");
     var keywordMapper = this.createKeywordMapper({
         "support.function": builtinFunctions,
         "keyword": keywords,
